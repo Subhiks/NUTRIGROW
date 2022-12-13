@@ -1,0 +1,80 @@
+
+
+
+<!DOCTYPE html>
+<head>
+<title>Register Form Design</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+<body>
+    <div class="image1">
+        <img src="images/reg.png" >
+    </div>
+
+    <div class="box">
+
+        <h1>Register Here</h1>
+
+        <form name="myform2" action="registration.php" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <p>Username</p>
+                        <input type="text" name="uname1" placeholder="Enter Username"  required="" >
+                    </td>
+                    <td>
+                        <p>Email</p>
+                         <input type="Email" name="email" placeholder="Enter email id" required="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Password</p>
+                        <input type="password" name="upswd1" placeholder="Enter Password" required="" >
+                    </td>
+                    <td>
+                        <p>Retype Password</p>
+                        <input type="password" name="upswd2" placeholder="Re-Enter Password" required="" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Age</p>
+                        <input type="int" name="age" placeholder="Enter Age" required="upto 15">
+                    </td>
+                    <td>
+                        <p>favourite food</p>
+                        <input type="text" name="food1" placeholder="Enter favourite" required="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>perferable meals</p>
+                        <input type="text" name="meal" placeholder="Enter Meals" required="">
+                    </td>
+                    <td>
+                        <p>permision</p>
+                        <select  id="per" name="per" require>
+                            <option disabled selected>Select Role</option>
+                            <option value="student">student</option>
+                            <option value="staff">staff</option>
+                            <option value="chef">chef</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <input type="submit" name="submit" value="Register">
+
+            <br><br>
+            <center><a href="login.html">existing user, login !?</a></center>
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>
+
+
+
+
